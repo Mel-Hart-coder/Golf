@@ -1,5 +1,4 @@
-//change if needed - path to data csv file
-//placement data, needs to be changed (can do later)
+//path to data csv file
 const data_path = "./data/data.csv";
 
 // Do everything here
