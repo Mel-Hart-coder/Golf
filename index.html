@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Grapefruit Games</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="scripts/functions.js"></script>
+  <script src="scripts/script.js"></script>
+
+
+
+</head>
+
+<body class="container-fluid m-0 p-0 bg-danger">
+
+  <div class="container-fluid m-0 p-0">
+    <div class="row" id="title">
+      <div class="col-lg-12 mx-auto">
+
+        <h1>Grapefruit Games</h1>
+        <img
+          src="https://www.icolorpalette.com/download/solidcolorimage/ff8c00_solid_color_background_icolorpalette.png"
+          class="rounded-circle" alt="Cinque Terre">
+
+      </div>
+    </div>
+  </div>
+  <!-- Tab links -->
+  <div class="tab bg-transparent">
+    <button class="tablinks" onclick="openLab(event, 'Alfa')">Alfa Games</button>
+    <button class="tablinks" onclick="openLab(event, 'Charlie')">Charlie Games</button>
+    <button class="tablinks" onclick="openLab(event, 'Delta')">Delta Games</button>
+    <button class="tablinks" onclick="openLab(event, 'Foxtrot')">Foxtrot Games</button>
+  </div>
+
+  <div class="row-12">
+
+    <!-- Tab content -->
+    <div class="contentTabs">
+      <div id="Alfa" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+      </div>
+      <div id="Charlie" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+      </div>
+      <div id="Delta" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+      </div>
+      <div id="Foxtrot" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+<footer>
+  <h4>Important Info</h4>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h5>Dream Team</h5>
+        <p><a target="_blank" href="https://github.com/LucasHasting">Lucas</a></p>
+        <p><a target="_blank" href="https://github.com/raidengreene">Raiden</a></p>
+        <p><a target="_blank" href="https://github.com/QueerInSTEM">Mel</a></p>
+      </div>
+
+      <div class="col-sm-6">
+        <h5>Code</h5>
+        <p><a target="_blank" href="https://github.com/QueerInSTEM/Golf" type="_blank">Repo</a></p>
+        <p><a target="_blank"
+            href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fqueerinstem.github.io%2FGolf">Validator</a></p>
+      </div>
+
+
+</footer>
+
+</html>
